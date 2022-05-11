@@ -12,6 +12,22 @@
             <span class="material-icons absolute mt-3 ml-3 text-muted">search</span>
             <input class="hover:bg-lightHover w-full rounded-full bg-light py-3 pr-3 pl-10" placeholder="Search" type="text" name="" values="">
         </div>
+        <div class="flex items-center">
+            <button type="button" name="button" class="relative rounded-full items-center flex hover:bg-light justify-center p-3"> 
+                <span class="material-icons text-3xl">notifications</span> 
+                <div class="rounded-full h-5 w-5 bg-primary text-white flex items-center justify-center absolute mb-5 ml-5">4</div>
+            </button>
+            <button type="button" name="button" class="relative rounded-full items-center flex hover:bg-light justify-center p-3"> 
+                <span class="material-icons text-3xl">textsms</span> 
+                <div class="rounded-full h-5 w-5 bg-primary text-white flex items-center justify-center absolute mb-5 ml-5">1</div>
+            </button>
+            <button class="rounded-full hover:bg-light p-3 flex items-center justify-center" type="button" name="button">
+                <div class="w-6 h-6 bg-center bg-cover rounded-full" style="background-image: url(profile.jpg)"></div>
+            </button>
+            <button type="button" name="button" class="w-6 h-6 hover:bg-light rounded-full flex items-center justify-center">
+                 <span class="material-icons">expand_more</span> 
+            </button>
+        </div>
     </div>
 </template>
 
