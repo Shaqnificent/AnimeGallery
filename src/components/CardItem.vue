@@ -6,7 +6,7 @@
         <div v-if="hover"  class="absolute top-0 w-full h-full flex flex-col justify-between p-3">
             <div class=" flex items-center justify-between">
                 <button type="button" name="button" class="flex items-center">
-                    <p class="font-semibold text-white">UI</p>
+                    <p class="font-semibold text-white">{{board}}</p>
                     <span class="material-icons text-white">expand_more</span> 
                 </button>
                 <button type="button" name="button" class="rounded-full py-3 px-5 text-white bg-primary font-semibold">
@@ -27,7 +27,7 @@
 
 <script>
 export default {
-    props: ['src'],
+    props: ['src','board'],
     data() {
         return {
             hover: false
