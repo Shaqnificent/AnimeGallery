@@ -3,6 +3,10 @@
   <div class="px-20">
     <div class="w-1/5">
     <CardItem src="1.jpg"  class="w-full h-full" />
+    <div class="text-sm leading-tight pt-2">
+      <p class="font-bold"> Some sort of Title</p>
+      <p>Who Posted</p>
+    </div>
   </div>
   </div>
   
